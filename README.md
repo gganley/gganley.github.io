@@ -1,2 +1,0 @@
-# gganley.github.io
-asdf
