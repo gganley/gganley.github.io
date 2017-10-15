@@ -2,7 +2,7 @@
 {% for post in site.posts limit: 5 %}
   <div class="post_info">
     {{ post.content }}
-    [Read more]({{ site.url }}{{ post.url }})
+    <a href="{{ site.url }}{{ post.url }}">Read more</a>
   </div>
   {% endfor %}
 </ul>
