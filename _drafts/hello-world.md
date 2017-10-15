@@ -1,7 +1,6 @@
 ---
-layout: post
 title: Hello World!
-excerpt_separator: <!--more-->
+permalink: hello
 ---
 
 # This is to confirm that everything went through
@@ -19,4 +18,3 @@ as
 fd
 asdf
 asdf
-<!--more-->
