@@ -3,7 +3,7 @@
   <div class="post_info">
     {{ post.excerpt }}
     <a href="{{ site.url }}{{ post.url }}">Read more</a>
-    </hr>
+    <hr>
   </div>
   {% endfor %}
 </ul>
