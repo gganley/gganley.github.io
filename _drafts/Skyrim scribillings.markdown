@@ -1,3 +1,9 @@
+---
+title: Skyrim
+permalink: skyrim
+publish: false
+---
+
 # Skyrim scribillings 
 
 A weird collection of thoughts and other things
