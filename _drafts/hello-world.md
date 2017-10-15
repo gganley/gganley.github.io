@@ -1,7 +1,7 @@
 ---
 title: Hello World!
 permalink: hello
-excerpt_separator: "\n\n"
+excerpt_separator: "\n\n\n"
 ---
 
 # This is to confirm that everything went through
