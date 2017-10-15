@@ -4,7 +4,7 @@ title: Hello World!
 excerpt_separator: <!--more-->
 ---
 
-# Test
+# This is to confirm that everything went through
 
 > This is a test of the EAP
 
