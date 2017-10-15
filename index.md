@@ -1,7 +1,3 @@
----
-layout: page
----
-
 # This is a test
 
 <ul class="posts">
@@ -11,7 +7,7 @@ layout: page
 	    <a href="{{ post.url }}">{{ post.title }}</a>
 	    <span>({{ post.date | date:"%Y-%m-%d" }})</span>
     </li>
-    <em>{{ post.excerpt }} </em>
-  </div>
+    </br> <em>{{ post.excerpt }} </em>
+    </div>
   {% endfor %}
 </ul>
