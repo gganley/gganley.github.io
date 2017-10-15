@@ -2,3 +2,4 @@ title: Gregory Ganley
 description: A place for my things. And yes, this is clearly ripping off <a href="daringfireball.net">John Gruber</a>
 google_analytics: UA-108145484-1
 show_drafts: true
+excerpt_separator: "\n\n"
