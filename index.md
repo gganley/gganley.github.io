@@ -11,7 +11,7 @@ layout: page
 	    <a href="{{ post.url }}">{{ post.title }}</a>
 	    <span>({{ post.date | date:"%Y-%m-%d" }})</span>
     </li>
-    </br> <em>{{ post.excerpt }} </em>
-    </div>
+    <em>{{ post.excerpt }} </em>
+  </div>
   {% endfor %}
 </ul>
