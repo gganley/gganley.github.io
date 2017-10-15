@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 
 > This is a test of the EAP
 
-<!--more-->
+
 sad;fkljd
 sadf
 asdf
@@ -19,3 +19,4 @@ as
 fd
 asdf
 asdf
+<!--more-->
