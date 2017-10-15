@@ -1,7 +1,7 @@
 <ul class="posts">
 {% for post in site.posts limit: 5 %}
   <div class="post_info">
-    {{ post.content }}
+    {{ post.excerpt }}
     <a href="{{ site.url }}{{ post.url }}">Read more</a>
   </div>
   {% endfor %}
