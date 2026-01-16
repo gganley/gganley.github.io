@@ -3,6 +3,19 @@
   --bg-color: #fff;
   --link-color: #0066cc;
   --border-color: #eee;
+  --muted-color: #666;
+  --code-bg: #f4f4f4;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: #e0e0e0;
+    --bg-color: #1a1a1a;
+    --link-color: #6db3f2;
+    --border-color: #333;
+    --muted-color: #999;
+    --code-bg: #2d2d2d;
+  }
 }
 
 * {
@@ -82,7 +95,7 @@ article header h1 {
 }
 
 article header time {
-  color: #666;
+  color: var(--muted-color);
   font-size: 0.9rem;
 }
 
@@ -91,14 +104,14 @@ article header time {
 }
 
 code {
-  background: #f4f4f4;
+  background: var(--code-bg);
   padding: 0.2rem 0.4rem;
   border-radius: 3px;
   font-size: 0.9em;
 }
 
 pre {
-  background: #f4f4f4;
+  background: var(--code-bg);
   padding: 1rem;
   border-radius: 5px;
   overflow-x: auto;
@@ -114,6 +127,6 @@ footer {
   margin-top: 3rem;
   padding-top: 1rem;
   border-top: 1px solid var(--border-color);
-  color: #666;
+  color: var(--muted-color);
   font-size: 0.9rem;
 }
