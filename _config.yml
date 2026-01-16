@@ -9,6 +9,12 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+# Syntax highlighting
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+
 # Exclude from processing
 exclude:
   - Gemfile

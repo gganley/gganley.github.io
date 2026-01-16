@@ -5,6 +5,16 @@
   --border-color: #eee;
   --muted-color: #666;
   --code-bg: #f4f4f4;
+  /* Syntax highlighting - light */
+  --syn-comment: #6a737d;
+  --syn-keyword: #d73a49;
+  --syn-string: #032f62;
+  --syn-number: #005cc5;
+  --syn-function: #6f42c1;
+  --syn-class: #22863a;
+  --syn-variable: #e36209;
+  --syn-operator: #d73a49;
+  --syn-builtin: #005cc5;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,6 +25,16 @@
     --border-color: #333;
     --muted-color: #999;
     --code-bg: #2d2d2d;
+    /* Syntax highlighting - dark */
+    --syn-comment: #8b949e;
+    --syn-keyword: #ff7b72;
+    --syn-string: #a5d6ff;
+    --syn-number: #79c0ff;
+    --syn-function: #d2a8ff;
+    --syn-class: #7ee787;
+    --syn-variable: #ffa657;
+    --syn-operator: #ff7b72;
+    --syn-builtin: #79c0ff;
   }
 }
 
@@ -130,3 +150,20 @@ footer {
   color: var(--muted-color);
   font-size: 0.9rem;
 }
+
+/* Rouge syntax highlighting */
+.highlight { background: var(--code-bg); border-radius: 5px; }
+.highlight pre { margin: 0; padding: 1rem; }
+.highlight .c, .highlight .c1, .highlight .cm, .highlight .cs { color: var(--syn-comment); font-style: italic; } /* Comments */
+.highlight .k, .highlight .kc, .highlight .kd, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kt { color: var(--syn-keyword); } /* Keywords */
+.highlight .s, .highlight .s1, .highlight .s2, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .sh, .highlight .sx { color: var(--syn-string); } /* Strings */
+.highlight .m, .highlight .mb, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .mo, .highlight .mx, .highlight .il { color: var(--syn-number); } /* Numbers */
+.highlight .nf, .highlight .fm { color: var(--syn-function); } /* Functions */
+.highlight .nc, .highlight .nn, .highlight .no { color: var(--syn-class); } /* Classes, namespaces, constants */
+.highlight .nv, .highlight .vi, .highlight .vg, .highlight .vc { color: var(--syn-variable); } /* Variables */
+.highlight .o, .highlight .ow { color: var(--syn-operator); } /* Operators */
+.highlight .nb, .highlight .bp { color: var(--syn-builtin); } /* Builtins */
+.highlight .na { color: var(--syn-variable); } /* Attributes */
+.highlight .nt { color: var(--syn-keyword); } /* Tags */
+.highlight .p { color: var(--text-color); } /* Punctuation */
+.highlight .err { color: var(--syn-keyword); background: none; } /* Errors */
