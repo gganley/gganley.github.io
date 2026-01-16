@@ -1,22 +1,17 @@
-dist
-dist-*
-cabal-dev
-*.o
-*.hi
-*.chi
-*.chs.h
-*.dyn_o
-*.dyn_hi
-.hpc
-.hsenv
-.cabal-sandbox/
-cabal.sandbox.config
-*.prof
-*.aux
-*.hp
-*.eventlog
-.stack-work/
-_site
-_cache/
-cabal.project.local
-.HTF/
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+
+# Bundle
+Gemfile.lock
+
+# macOS
+.DS_Store
+
+# Editor
+*.swp
+*.swo
+*~

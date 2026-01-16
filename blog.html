@@ -1,13 +1,11 @@
 ---
 layout: default
-title: Home
+title: Blog
 ---
-<h1>Welcome</h1>
-<p>Hello! This is my personal blog.</p>
+<h1>Blog</h1>
 
-<h2>Recent Posts</h2>
 <ul>
-  {% for post in site.posts limit:5 %}
+  {% for post in site.posts %}
     <li>
       <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
       <time datetime="{{ post.date | date_to_xmlschema }}">
